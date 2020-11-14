@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.min.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header"></header>
+    <section class="section1">
+      <div class="container">
+        <div class="flex">
+          <select class="substrate" name="" id="">
+            <option value="0">Выбери субстрат</option>
+            <option value="soil">Земля</option>
+            <option value="coco">Кокос</option>
+            <option value="water">Гидра</option>
+          </select>
+          <select class="stage" name="" id="">
+            <option value="0">Выбери стадию</option>
+            <option value="vegetation">Вегетация</option>
+            <option value="bloom">Цветение</option>
+          </select>
+          <select class="nutrients" name="" id="">
+            <option value="0">Выбери удобриния</option>
+            <option class="n1" value="1">RASTEA COCO A+B</option>
+            <option class="n2" value="2">RASTEA SOIL AUTO-FLOWERING</option>
+            <option class="n3" value="3">RASTEA ECO-HYDRO VEGA A+B</option>
+            <option class="n4" value="4">RASTEA ECO-HYDRO FLORES A+B</option>
+          </select>
+          <select class="week-veg" name="" id="">
+            <option value="0">Выбери неделю</option>
+            <option value="v1">неделя 1</option>
+            <option value="v2">неделя 2</option>
+            <option value="v3">неделя 3</option>
+            <option value="v4">неделя 4</option>
+            <option value="v5">неделя 4+</option>
+          </select>
+          <select class="week-bloom" name="" id="">
+            <option value="0">Выбери неделю</option>
+            <option value="b1">неделя 1</option>
+            <option value="b2">неделя 2</option>
+            <option value="b3">неделя 3</option>
+            <option value="b4">неделя 4</option>
+            <option value="b5">неделя 5</option>
+            <option value="b6">неделя 6</option>
+            <option value="b7">неделя 7</option>
+            <option value="b8">неделя 8+</option>
+          </select>
+        </div>
+        <div class="flex2">
+          <div class="out-sub"></div>
+          <div class="out-stage"></div>
+          <div class="out-nutr"></div>
+          <div class="out-week"></div>
+        </div>
+        <button class="btn" type="button">Рассчитать</button>
+        <div class="out"></div>
+      </div>
+      <!-- container -->
+    </section>
+
+    <script src="./js/calc.js"></script>
+  </body>
+</html>

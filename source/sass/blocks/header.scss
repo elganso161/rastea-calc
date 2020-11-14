@@ -1,0 +1,123 @@
+.header {
+  background-color: tomato;
+}
+
+select {
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.out-sub,
+.out-stage,
+.out-nutr {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.section1 {
+  background-color: rgb(57, 94, 107);
+  padding-top: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  min-width: 1024px;
+  height: 750px;
+}
+
+.flex,
+.flex2 {
+  display: flex;
+}
+
+.coco {
+  display: none;
+}
+
+.soil {
+  display: none;
+}
+
+.water {
+  display: none;
+}
+
+.out {
+  display: none;
+  margin-top: 30px;
+  width: 100%;
+  height: 200px;
+  background-color: rgba(167, 149, 146, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.out p {
+  color: #000;
+  margin-bottom: 3px;
+}
+
+.out span {
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.stage {
+  display: none;
+}
+
+.nutrients {
+  display: none;
+}
+
+.week-veg {
+  display: none;
+}
+
+.week-bloom {
+  display: none;
+}
+
+.btn {
+  display: none;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(113, 172, 86);
+  // margin: 0 auto;
+  width: 250px;
+  height: 50px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: rgb(129, 209, 91);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  &:active {
+    background-color: rgb(160, 233, 127);
+  }
+}
+
+
+.out-week p {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: black;
+  font-size: 210px;
+  font-weight: bold;
+  text-align: center;
+}
