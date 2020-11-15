@@ -327,6 +327,14 @@ function f5() {
   ) {
     out.innerHTML = "";
     out.innerHTML = arrSoilAuto[12];
+  } else if (
+    substrate.value == "soil" &&
+    stage.value == "vegetation" &&
+    nutrients.value == "3" &&
+    weekVeg.value == "v1"
+  ) {
+    out.innerHTML = "";
+    out.innerHTML = 1111;
   }
 }
 document.querySelector(".btn").onclick = f5;
