@@ -41,6 +41,12 @@ ul {
 }
 
 .container {
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
+}
+
+@media (max-width:1200px) {
+  .container {
+    max-width: 970px;
+  }
 }
